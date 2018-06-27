@@ -4,4 +4,4 @@ array = []
 while (words = gets.downcase.chomp) != ""
     array.push words
 end
-print "Your words in alphabetical order are: " + array.sort.join(', ') + "."
+puts "Your words in alphabetical order are: " + array.sort.join(', ') + "."
